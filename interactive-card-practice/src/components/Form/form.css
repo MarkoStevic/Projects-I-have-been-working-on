@@ -1,0 +1,62 @@
+.styling-form {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+} 
+
+.styling-form label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.styling-form input {
+    font-size: 1.1rem;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.expDateAndCvcLabel {
+    margin-top: 1rem;
+}
+
+#expDateLabel {
+    width: fit-content;
+}
+
+#cvcLabel {
+    width: fit-content;
+    margin-left: 7rem;
+}
+
+#monthsInput {
+    width: 14%;
+}
+
+#yearsInput {
+    width: 14%;
+    margin-left: 0.7rem;
+}
+
+#cvcInput {
+    width: 43%;
+    margin-left: 6rem;
+}
+
+#submit {
+    margin-top: 1.2rem;
+    background-color: #370037;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pErrorVisible {
+    display: block;
+    color: #fff;
+}
+
+.pErrorNonVisible {
+display: none;
+}

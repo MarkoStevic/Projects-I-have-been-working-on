@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  position: relative;
+}
+
+.gradient-part-of-app {
+  width: 25%;
+  height: 100vh;
+  background-image: url(../../assetsForInteractive-card-details-form-main/images/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
