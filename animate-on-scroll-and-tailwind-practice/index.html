@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS & Tailwind practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body class="font-sans m-0 p-0">
+    <section style=" background-image: url(./assets/background-image1.jpeg);"
+        class="bg-no-repeat bg-cover bg-center lg:w-full lg:h-[80vh] w-full h-[100vh] flex flex-col items-center justify-center gap-y-6 pt-12 ">
+        <div class="lg:w-40 lg:h-40 xl:w-44   xl:h-44 w-48 h-48 ">
+            <img src="./assets/Deer-logo.png" alt="deerLogo" class="w-[100%] h-[100%]">
+        </div>
+        <div class="">
+            <h1 class=" text-yellow-400 lg:text-9xl sm:text-8xl text-7xl lg:font-semibold font-semibold  h-fit">Alaska
+            </h1>
+        </div>
+        <div class=" text-white lg:text-2xl text-xl">TOUR AND TRAVEL</div>
+        <div class=" lg:w-24 lg:h-24 w-16 h-16">
+            <svg xmlns="http://www.w3.org/2000/svg" height="" width=""
+                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path fill="#FFD43B"
+                    d="M201.4 342.6c12.5 12.5 36.8 12.5 45.3 0l160-160c12.5-12.5 12.5-36.8 0-45.3s-36.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-36.8-12.5-45.3 0s-12.5 36.8 0 45.3l160 160z" />
+            </svg>
+        </div>
+    </section>
+
+    <section style="background-image: url(./assets/background-image2.jpeg);"
+        class=" bg-no-repeat bg-cover bg-center sm:w-full sm:h-[80vh] h-fit flex flex-col justify-center items-center sm:flex sm:flex-row sm:justify-evenly sm:items-center">
+        <div data-aos="fade-right" data-aos-duration="5000" class=" xl:w-96 lg:w-72 sm:w-60 w-600%] xl:h-72 lg:h-52 sm:h-40 h-fit mb-8 pt-6">
+            <h1 class=" text-yellow-500 xl:text-7xl lg:text-6xl sm:text-5xl text-4xl font-semibold text-left ">Is a trip
+                to Alaska on your
+                list?</h1>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="8000" data-aos-delay="100"
+            class=" xl:w-[450px] lg:w-[350px] sm:w-[300px] w-[80%] h-fit flex flex-col justify-between gap-y-4 pb-4 xl:xl:text-lg sm:text-base text-base ">
+            <p class=" text-white">Alaska Tour & Travel is here to help with an extensive list of exciting Alaska
+                vacation packages -- all easily customized to meet your specific needs. Or create the perfect vacation
+                from scratch by choosing from our individual hotel, day tour, and transportation options including great
+                Alaska travel deals.</p>
+            <p class=" text-white">Our Alaska cruises are more popular then ever, and we also have a great selection of
+                pre and post cruise tour packages designed to connect with with all the major Alaska cruise lines. Call
+                Alaska Tour & Travel today at 800-208-0200, or contact us online... we'll be happy to answer your
+                questions and help you set up the Alaska vacation of a lifetime.</p>
+            <a href="#"
+                class="bg-yellow-400 lg:w-60 sm:w-28 lg:h-12 sm:h-10 h-10 sm:py-2 py-2 text-center  hover:text-white hover:bg-yellow-500">read
+                more</a>
+        </div>
+    </section>
+
+    <section
+        style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./assets/stars-with-mountain.jpg)"
+        class="w-full lg:h-[90vh] sm:h-fit h-[150vh] sm:gap-y-0 py-6 bg-no-repeat bg-cover bg-center flex flex-col items-center justify-evenly">
+        <h1 data-aos="fade-down-left"
+            class=" text-yellow-400 xl:text-5xl lg:text-4xl sm:text-4xl text-4xl xl:w-[35rem] lg:w-[30rem] sm:w-[36rem] w-[77%] h-fit sm:text-center text-left">
+            Experience
+            Kenai Fjords & Denali park
+        </h1>
+        <div
+            class=" xl:w-[75rem] lg:w-[57rem] lg:w-[47rem] sm:w-[40rem] w-[90%]  xl:h-[30rem] lg:h-[26rem] lg:h-[21rem] sm:h-[75rem] h-[85%] lg:flex lg:flex-row lg:justify-evenly lg:items-center sm:flex sm:flex-col sm:items-center sm:justify-evenly flex flex-col justify-evenly items-center">
+            <div data-aos="zoom-in-right" data-aos-duration="2000" style="background-image: url(./assets/anchorage\ sky.jpg);"
+                class=" xl:w-[23rem] lg:w-[17rem] lg:w-[14rem] sm:w-[36rem] w-[95%] xl:h-[28rem] lg:h-[22rem] lg:h-[18rem] sm:h-[24rem] h-[36%] bg-no-repeat bg-cover bg-center flex flex-col justify-end pl-8 pb-8 items-start">
+                <a href="https://www.alaskatravel.com/anchorage/anchorage-brews-tour.html" target="_blank"
+                    class=" text-white xl:text-3xl lg:text-2xl md:text-2xl sm:text-xl xl:text-lg font-semibold">Anchorage
+                    Brews Tour</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" viewBox="0 0 580 400">
+                    <path fill="#FFD43B"
+                        d="M201.4 342.6c12.5 12.5 36.8 12.5 45.3 0l160-160c12.5-12.5 12.5-36.8 0-45.3s-36.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-36.8-12.5-45.3 0s-12.5 36.8 0 45.3l160 160z" />
+                </svg>
+            </div>
+            <div data-aos="zoom-out-up" data-aos-duration="2000" style="background-image: url(./assets/anchorage\ clifs.jfif);"
+                class=" xl:w-[23rem] lg:w-[17rem] lg:w-[14rem] sm:w-[36rem] w-[95%] xl:h-[28rem] lg:h-[22rem] lg:h-[18rem] sm:h-[24rem] h-[36%] bg-no-repeat bg-cover bg-center flex flex-col justify-end pl-8 pb-8 items-start">
+                <a href="https://www.alaskatravel.com/anchorage/city-tour.html" target="_blank"
+                    class=" text-white xl:text-3xl lg:text-2xl md:text-2xl sm:text-xl xl:text-lg font-semibold">Anchorage
+                    City Tour</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" viewBox="0 0 580 400">
+                    <path fill="#FFD43B"
+                        d="M201.4 342.6c12.5 12.5 36.8 12.5 45.3 0l160-160c12.5-12.5 12.5-36.8 0-45.3s-36.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-36.8-12.5-45.3 0s-12.5 36.8 0 45.3l160 160z" />
+                </svg>
+            </div>
+            <div data-aos="zoom-out-left" data-aos-duration="3000" style="background-image: url(./assets/anchorage\ cabin.jfif);"
+                class=" xl:w-[23rem] lg:w-[17rem] lg:w-[14rem] sm:w-[36rem] w-[95%] xl:h-[28rem] lg:h-[22rem] lg:h-[18rem] sm:h-[24rem] h-[36%] bg-no-repeat bg-cover bg-center flex flex-col justify-end pl-8 pb-8 items-start">
+                <a href="https://www.alaskatravel.com/anchorage/museum.html" target="_blank"
+                    class=" text-white xl:text-3xl lg:text-2xl md:text-2xl sm:text-xl xl:text-lg font-semibold">Anchorage
+                    Museum</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" viewBox="0 0 580 400">
+                    <path fill="#FFD43B"
+                        d="M201.4 342.6c12.5 12.5 36.8 12.5 45.3 0l160-160c12.5-12.5 12.5-36.8 0-45.3s-36.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-36.8-12.5-45.3 0s-12.5 36.8 0 45.3l160 160z" />
+                </svg>
+            </div>
+        </div>
+        <a href="#"
+            class="bg-yellow-400 lg:w-60 w-60 lg60-12 h-10 lg:py-2 py-1 sm:mt-0 mt-3 text-center hover:text-white hover: hover:bg-yellow-500">read
+            more</a>
+    </section>
+
+    <section
+        style="background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./assets/background-image3.jpeg);"
+        class="bg-no-repeat bg-cover bg-center w-full lg:h-[80vh] sm:h-[100vh] h-fit lg:flex lg:flex-row lg:justify-evenly lg:items-start lg:py-12 md:flex md:flex-col md:justify-evenly md:items-center md:gap-y-0 md:py-0 flex flex-col justify-evenly items-center gap-y-8 py-8">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" class=" xl:w-[31em] lg:w-[27rem] w-[70%] xl:h-[28rem] lg:h-[24rem] h-fit ">
+            <h1 class="w-full xl:h-[26rem] lg:h-[22rem] h-[100%]  xl:p-4 lg:p-2 md:p-1">
+                <a href="https://www.alaskatravel.com/alaska-railroad/spencer-bears-trains-icebergs.html"
+                    target="_blank" class="text-yellow-400 xl:text-7xl lg:text-5xl md:text-6xl text-5xl">Bears, Trains &
+                    Icebergs with Rail from Anchorage</a>
+            </h1>
+        </div>
+        <div
+            class="xl:w-[37rem] lg:w-[33rem] w-[80%] lg:h-[100%] md:h-[60%] flex flex-col justify-evenly items-left gap-y-4 text-white">
+            <p data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000" class="xl:text-lg lg:text-lg text-lg">
+                Your Bears, Trains and Icebergs adventures starts with a scenic ride on the Alaska Railroad's Glacier
+                Discovery train. The train departs from the Anchorage Depot located at 411 West First Avenue at 9:45am.
+                After traveling through Anchorage you will descend through the Anchorage Coastal Wildlife Refuge.
+            </p>
+            <h1 class="xl:text-2xl lg:text-2xl text-2xl">
+                What To Wear
+            </h1>
+            <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="2000" class="xl:text-lg lg:text-lg text-lg">
+                Your trip includes professional guides, raingear, rubber boots and a small snack. Dress warmly in layers
+                as conditions around the icebergs can be chilly. Please bring thick socks (to wear with provided rubber
+                boots), warm clothes (wear synthetic layers and bring a rain coat), warm hat and gloves. You may wish to
+                bring binoculars and a camera if you have them.
+            </p>
+            <h1 class="xl:text-2xl lg:text-2xl text-2xl">
+                Reservations
+            </h1>
+            <p data-aos="flip-right" data-aos-delay="300" data-aos-duration="2000"  class="xl:text-lg lg:text-lg text-lg">
+                You can click on the button below or the following link to add Bears, Train & Icebergs with Rail to your
+                My Alaska trip planner where you can request a reservation or continue to browse for additional
+                services. For reservations or additional information you can also call 800-208-0200 or contact us
+                online.
+            </p>
+        </div>
+    </section>
+
+    <section
+        style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/woodlandscapemountainsnature.jpg);"
+        class="bg-no-repeat bg-cover bg-top w-full sm:h-[60vh] h-fit flex justify-center items-center sm:p-12 p-6">
+        <div class=" w-fit h-[80%]  gap-x-16 flex justify-center items-center flex-wrap">
+            <div data-aos="zoom-out-right" data-aos-duration="2000" data-aos-delay="100" id="hotels"
+                class="bg-black w-48 h-48 rounded-full text-white flex flex-col justify-center items-center gap-y-5">
+                <h1 id="hotels-count" class="text-7xl text-yellow-400">650</h1>
+                <p class=" text-base">HOTELS TO STAY</p>
+            </div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-delay="200" id="places"
+                class="bg-black w-48 h-48 rounded-full text-white flex flex-col justify-center items-center gap-y-5">
+                <h1 class="text-7xl text-yellow-400">1200</h1>
+                <p class=" text-base">PLACES TO VISIT</p>
+            </div>
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos-delay="300" id="visitors"
+                class="bg-black w-48 h-48 rounded-full text-white flex flex-col justify-center items-center gap-y-5">
+                <h1 class="text-7xl text-yellow-400">800</h1>
+                <p class=" text-base">REPEAT VISITORS</p>
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="400" id="percent"
+                class="bg-black w-48 h-48 rounded-full text-white flex flex-col justify-center items-center gap-y-5">
+                <h1 class="text-7xl text-yellow-400">100%</h1>
+                <p class=" text-base">SAFE & SECURE</p>
+            </div>
+        </div>
+    </section>
+
+    <section
+        style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/wolfwolvessnowwolflandscape89773.jpeg);"
+        class="bg-no-repeat bg-cover bg-center w-full h-fit flex justify-center items-center ">
+        <div data-aos="flip-up" data-aos-duration="2000" class="sm:w-[60%] w-[80%] h-fit flex flex-col justify-center items-center gap-y-8 my-20">
+            <img src="./assets/pexelsphoto952237.jpeg" class="w-[180px] h-[180px] rounded-full">
+            <p class="text-white text-lg sm:w-[80%] w-[90%]  ">“This was a fantastic experience, we saw so much, the
+                wildlife, the scenery and met interesting people
+                and really got to know Alaska! It really was the best way to see Alaska! We loved getting out onto the
+                glacier with crampons. My daughter loved the ice climbing. Sea kayaking was great. Thank you for a
+                memorable, unique trip! ”
+
+            </p>
+            <h1 class=" text-white text-2xl w-[80%] text-center">
+                Connor Quinn
+            </h1>
+            <svg xmlns="http://www.w3.org/2000/svg" height="63" width="100" viewBox="0 0 580 400">
+                <path fill="#FFD43B"
+                    d="M201.4 342.6c12.5 12.5 36.8 12.5 45.3 0l160-160c12.5-12.5 12.5-36.8 0-45.3s-36.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-36.8-12.5-45.3 0s-12.5 36.8 0 45.3l160 160z" />
+            </svg>
+        </div>
+
+    </section>
+
+    <section class=" w-full h-fit flex flex-row justify-center items-center flex-wrap ">
+        <img data-aos="zoom-in" data-aos-duration="1000" src="./assets/carousel1.jpeg" alt="" class="w-[25%] min-w-[281px] h-[35vh] flex-grow ">
+        <img data-aos="zoom-in-up" data-aos-duration="2000" src="./assets/carousel2.jpeg" alt="" class="w-[25%] min-w-[281px] h-[35vh] flex-grow ">
+        <img data-aos="zoom-in-down" data-aos-duration="3000" src="./assets/carousel3.jpeg" alt="" class="w-[25%] min-w-[281px] h-[35vh] flex-grow ">
+        <img data-aos="zoom-in-left" data-aos-duration="4000" src="./assets/carousel4.jpeg" alt="" class="w-[25%] min-w-[281px] h-[35vh] flex-grow ">
+    </section>
+
+    <section
+        style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/contactJs.jpeg)"
+        class="bg-no-repeat bg-cover bg-center w-full h-fit flex justify-center items-center ">
+        <div class=" w-[90%] h-fit flex justify-center items-center flex-wrap gap-x-[3rem] my-[4rem]">
+            <div class="w-[45%] min-w-[281px] h-full flex flex-col justify-start gap-y-[2rem] py-[1rem]">
+                <h1 class="text-yellow-400 text-7xl">Contact Us</h1>
+                <div class=" w-full h-fit flex-column justify-center items-center text-white">
+                    <p>Toll Fee: 800-208-0200</p>
+                    <p>Anchorage: 907-245-0200</p>
+                    <p>Fax: 907-245-0800</p>
+                    <p>Email: info@alaska.com</p>
+                </div>
+                <div class="text-white w-[90%] ">OVDE CE DOCI SVG</div>
+            </div>
+            <div class=" flex flex-col justify-start items-center w-[45%] min-w-[281px] h-full py-[1rem]">
+                <form class="w-[80%] h-full flex flex-col items-left gap-y-[1rem]">
+                     <input type="text" placeholder="Name" required
+                        class="w-full h-[3rem] bg-transparent border-solid border-black border-[3px] border-gray-300 border-opacity-50 p-2">
+                    <input type="email" placeholder="Email" required
+                        class="w-full h-[3rem] bg-transparent border-solid border-black border-[3px] border-gray-300 border-opacity-50 p-2">
+                    <textarea placeholder="Message"
+                        class=" w-full h-[7rem] bg-transparent border-solid border-black border-[3px] border-gray-300 border-opacity-50 p-2"></textarea>
+                    <input type="submit" value="Submit"
+                        class="  bg-yellow-400 text-center w-[25%] h-[2.5rem]  hover:text-white hover:bg-yellow-500 cursor-pointer mr-[12rem] ">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="w-full h-[10vh] text-center pt-[2rem] bg-gray-600">Template created by Marko Stevic </footer>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
