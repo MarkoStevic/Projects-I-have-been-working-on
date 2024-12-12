@@ -7,7 +7,7 @@ import NewProjectForm from "./components/New-project-form";
 
 function App() {
 
-  const projectList = []
+  const [projectList, setProjectList] = useState([])
 
   const [newProject, setNewProject] = useState(false) 
 

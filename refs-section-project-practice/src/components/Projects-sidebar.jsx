@@ -10,7 +10,7 @@ const ProjectsSidebar = ({ projects, addNewProject }) => {
                 {projects.map((project) => {
                     return (
                         <li className=" text-stone-500">
-                            <button>{project}</button>
+                            <button className=" w-full text-left " >{project}</button>
                         </li>)
 
                 }
