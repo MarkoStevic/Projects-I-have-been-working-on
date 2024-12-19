@@ -1,11 +1,14 @@
 import React from 'react'
+import { NavLink } from "react-router"
 
 const Navbar = () => {
+
   return (
-    <div className = " w-full h-16 flex justify-around items-center bg-sky-800 bg-opacity-80 ">
-        <button className = " h-[80%] w-40 text-xl text-stone-400 hover:text-white hover:bg-sky-950 hover:scale-125 " >All pokemons</button>
-        <button className = " h-[80%] w-40 text-xl text-stone-400 hover:text-white hover:bg-sky-950 hover:scale-125 ">Catch list</button>
-    </div>
+    <nav className = " w-full flex justify-evenly items-center text-2xl bg-sky-900 py-2 text-gray-300 opacity-70 ">
+         <NavLink to= '/' className={({ isActive }) => isActive ? "bg-slate-900 opacity-100 rounded-2xl text-cyan-300 py-2 px-3 " : "hover:bg-slate-900 opacity-100 rounded-2xl hover:text-cyan-300 py-2 px-3" } > All pokemons </NavLink>
+
+         <NavLink to= '/catchList' className={({ isActive }) => isActive ? "bg-slate-900 opacity-100 rounded-2xl text-cyan-300 py-2 px-3 " : "hover:bg-slate-900 opacity-100 rounded-2xl hover:text-cyan-300 py-2 px-3" } > Catch list </NavLink> 
+    </nav>
   )
 }
 
